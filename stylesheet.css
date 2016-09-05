@@ -1,0 +1,57 @@
+.calculator
+{
+  overflow: hidden;
+  position: relative;
+  max-width: 600px;
+  height: 100px;
+  margin: auto;
+  background-color: green;
+}
+.currencyIn, .currency, .currencyIn3
+{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  font-size: 400%;
+}
+.currencyInCon
+{
+  position: absolute;
+  width: 20%;
+  height: 100%;
+  top: 0;
+  left:0;
+  background-color: red;
+}
+.currencyInCon2
+{
+  position: absolute;
+  width: 20%;
+  height: 100%;
+  top: 0;
+  right: 0%;
+  background-color: red;
+}
+.currencyInCon3
+{
+  position: absolute;
+  width: 20%;
+  height: 100%;
+  top: 0;
+  left: 20%;
+  background-color: red;
+}
+.currencyOut
+{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 300%;
+  position: absolute;
+  width: 20%;
+  height: 100%;
+  top: 0;
+  right:20%;
+  background-color: red;
+}
